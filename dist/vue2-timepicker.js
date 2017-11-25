@@ -145,7 +145,7 @@
         },
 
         renderHoursList () {
-          const hoursCount = (this.hourType === 'h' || this.hourType === 'hh') ? 12 : 24
+          const hoursCount = (this.hourType === 'h' || this.hourType === 'hh') ? 12 : 36
           this.hours = []
           for (let i = 0; i < hoursCount; i++) {
             this.hours.push(this.formatValue(this.hourType, i))
